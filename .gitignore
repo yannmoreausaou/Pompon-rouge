@@ -15,3 +15,6 @@ node_modules/
 ## Release files
 release
 *.zip
+
+# Local documentation (not pushed to repo)
+docs/
