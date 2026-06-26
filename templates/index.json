@@ -1,6 +1,6 @@
 {
   "sections": {
-    "hero": {
+    "main": {
       "type": "hero",
       "settings": {
         "title": "Pompon Rouge",
@@ -8,27 +8,9 @@
         "button_text": "Découvrir",
         "button_link": "/collections/all"
       }
-    },
-    "featured_product": {
-      "type": "featured-product",
-      "settings": {}
-    },
-    "about": {
-      "type": "about-section",
-      "settings": {
-        "title": "Notre Histoire",
-        "text": "Découvrez notre trousse de toilette de luxe, inspirée par l'élégance intemporelle des marins français. Chaque pompon rouge raconte une histoire de qualité et de tradition."
-      }
-    },
-    "features": {
-      "type": "features-section",
-      "settings": {}
     }
   },
   "order": [
-    "hero",
-    "featured_product",
-    "about",
-    "features"
+    "main"
   ]
 }

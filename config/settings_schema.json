@@ -1,9 +1,9 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Pompon-rouge",
-    "theme_version": "1.0.0",
-    "theme_author": "Pompon-rouge",
+    "theme_name": "Skeleton",
+    "theme_version": "0.1.0",
+    "theme_author": "Shopify",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
   },
@@ -17,14 +17,8 @@
       {
         "type": "font_picker",
         "id": "type_primary_font",
-        "default": "cinzel_n4",
+        "default": "work_sans_n4",
         "label": "t:general.primary"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_secondary_font",
-        "default": "montserrat_n5",
-        "label": "t:general.secondary"
       }
     ]
   },
@@ -65,32 +59,14 @@
       {
         "type": "color",
         "id": "background_color",
-        "default": "#F8F6F2",
+        "default": "#FFFFFF",
         "label": "t:labels.background"
       },
       {
         "type": "color",
         "id": "foreground_color",
-        "default": "#5B6770",
+        "default": "#333333",
         "label": "t:labels.foreground"
-      },
-      {
-        "type": "color",
-        "id": "color_navy",
-        "default": "#0F2D3D",
-        "label": "Bleu marine (titres, menu, footer)"
-      },
-      {
-        "type": "color",
-        "id": "color_red",
-        "default": "#C62828",
-        "label": "Rouge (boutons principaux, accents)"
-      },
-      {
-        "type": "color",
-        "id": "color_sand",
-        "default": "#E8DDC8",
-        "label": "Sable (fonds sections, cartes)"
       },
       {
         "type": "range",
