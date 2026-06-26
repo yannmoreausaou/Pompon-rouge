@@ -1,0 +1,114 @@
+<section class="about section--sand">
+  <div class="about__container content-wrapper">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'heading' -%}
+          <h2 class="about__title" {{ block.shopify_attributes }}>{{ block.settings.title }}</h2>
+        {%- when 'text' -%}
+          <div class="about__text" {{ block.shopify_attributes }}>
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {%- when 'button' -%}
+          <a href="{{ block.settings.button_link }}" class="btn btn--secondary" {{ block.shopify_attributes }}>
+            {{ block.settings.button_text }}
+          </a>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</section>
+
+{% stylesheet %}
+  .about {
+    padding: 5rem 0;
+  }
+
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .about__title {
+    font-family: var(--font-primary--family);
+    font-size: 2rem;
+    color: var(--color-navy);
+    margin: 0;
+  }
+
+  .about__text {
+    max-width: 700px;
+  }
+
+  .about__text p {
+    font-family: var(--font-secondary--family);
+    font-size: 1rem;
+    color: var(--color-foreground);
+    line-height: 1.8;
+    margin: 0;
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "À propos",
+  "class": "section-about",
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Titre",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre",
+          "default": "Notre Histoire"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Texte",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Texte",
+          "default": "Découvrez notre trousse de toilette de luxe, inspirée par l'élégance intemporelle des marins français. Chaque pompon rouge raconte une histoire de qualité et de tradition."
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Bouton",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Texte du bouton",
+          "default": "En savoir plus"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Lien du bouton"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "À propos",
+      "blocks": [
+        { "type": "heading" },
+        { "type": "text" },
+        { "type": "button" }
+      ]
+    }
+  ]
+}
+{% endschema %}

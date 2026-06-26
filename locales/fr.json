@@ -1,0 +1,77 @@
+{
+  "general": {
+    "404": "Page non trouvée",
+    "article": "Article",
+    "block": "Bloc",
+    "blog": "Blog",
+    "cart": "Panier",
+    "collection": "Collection",
+    "collections": "Collections",
+    "collection_card": "Carte collection",
+    "collections_grid": "Grille collections",
+    "colors": "Couleurs",
+    "column": "Colonne",
+    "content": "Contenu",
+    "custom_section": "Section personnalisée",
+    "fonts": "Polices",
+    "footer": "Pied de page",
+    "group": "Groupe",
+    "header": "En-tête",
+    "layout": "Mise en page",
+    "main": "Principal",
+    "page": "Page",
+    "password": "Mot de passe",
+    "primary": "Primaire",
+    "product": "Produit",
+    "row": "Ligne",
+    "search": "Recherche",
+    "secondary": "Secondaire",
+    "section": "Section",
+    "settings": "Paramètres",
+    "sidebar": "Barre latérale",
+    "text": "Texte",
+    "theme": "Thème",
+    "typography": "Typographie"
+  },
+  "labels": {
+    "alignment": "Alignement",
+    "background": "Fond",
+    "foreground": "Premier plan",
+    "grid_gap": "Espacement grille",
+    "grid_item_width": "Largeur élément",
+    "input_corner_radius": "Rayon coins",
+    "layout_direction": "Direction mise en page",
+    "menu": "Menu",
+    "customer_account_menu": "Menu compte client",
+    "padding": "Marge intérieure",
+    "page_margin": "Marge page",
+    "page_width": "Largeur page",
+    "show_payment_icons": "Afficher icônes paiement",
+    "text_style": "Style texte",
+    "text": "Texte"
+  },
+  "options": {
+    "alignment": {
+      "left": "Gauche",
+      "center": "Centre",
+      "right": "Droite"
+    },
+    "direction": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertical"
+    },
+    "page_width": {
+      "narrow": "Étroit",
+      "wide": "Large"
+    },
+    "size": {
+      "large": "Grand",
+      "small": "Petit"
+    },
+    "text_style": {
+      "title": "Titre",
+      "subtitle": "Sous-titre",
+      "normal": "Texte normal"
+    }
+  }
+}
