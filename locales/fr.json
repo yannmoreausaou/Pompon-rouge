@@ -1,6 +1,12 @@
 {
   "general": {
-    "404": "Page non trouvée",
+    "404": "Page non trouvée"
+  },
+  "404": {
+    "title": "Page non trouvée",
+    "not_found": "Cette page n'existe pas.",
+    "back_to_shopping": "Retourner à la boutique"
+  },
     "article": "Article",
     "block": "Bloc",
     "blog": "Blog",
