@@ -71,4 +71,7 @@ All sections use Shopify's block system for user customization:
 1. Develop locally: `shopify theme dev`
 2. Validate: `shopify theme check`
 3. Push to Shopify: `shopify theme push`
-4. Commit and push to GitHub for backup/tracking
+4. **After every modification, commit and push to GitHub:**
+   ```bash
+   git add -A && git commit -m "Description of changes" && GIT_SSH_COMMAND="ssh -i ~/.ssh/pompon_rouge_key" git push origin main
+   ```
